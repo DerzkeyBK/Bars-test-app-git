@@ -1,0 +1,13 @@
+
+Bars-test-app/bin/Debug/**
+Bars-test-app/obj/Debug/netcoreapp3.1/Bars-test-app.pdb
+Bars-test-app/obj/Debug/netcoreapp3.1/Bars-test-app.genruntimeconfig.cache
+Bars-test-app/obj/Debug/netcoreapp3.1/Bars-test-app.exe
+Bars-test-app/obj/Debug/netcoreapp3.1/Bars-test-app.dll
+Bars-test-app/obj/Debug/netcoreapp3.1/Bars-test-app.csprojAssemblyReference.cache
+Bars-test-app/obj/Debug/netcoreapp3.1/Bars-test-app.csproj.FileListAbsolute.txt
+Bars-test-app/obj/Debug/netcoreapp3.1/Bars-test-app.assets.cache
+Bars-test-app/obj/Debug/netcoreapp3.1/Bars-test-app.csproj.CopyComplete
+Bars-test-app/obj/Debug/netcoreapp3.1/Bars-test-app.AssemblyInfoInputs.cache
+Bars-test-app/obj/Debug/netcoreapp3.1/Bars-test-app.AssemblyInfo.cs
+Bars-test-app/obj/project.assets.json
