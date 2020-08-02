@@ -1,12 +1,13 @@
-# Bars-test-app-git
- C# .NET Core приложение для получения размеров и последних дат обновления базы данных PostgreSQL серверов. Приложение создаёт таблицы в Google Sheets в которых выводятся все данные.
-Использованы следующие NuGet пакеты:
-*NPGSQL - open-source .NET провайдер данных для PostgreSQL
-*Newtonsoft.Json -JSON - framework для .NET
-*Google.Apis.Sheets.v4 - Библиотека для работы с Sheets v4 Google API.
+**C# .NET Core** приложение для получения размеров и последних дат обновления базы данных **PostgreSQL** серверов. Приложение создаёт таблицы в **Google Sheets** в которых выводятся все данные.
 
-Для работы с приложением необходимо заполнить файл настроек appsettings.json
-Пример appsettings.json
+Использованы следующие **NuGet**-пакеты:
+- **NPGSQL** - [open-source .NET провайдер данных для PostgreSQL](https://www.npgsql.org/doc/index.html)
+- **Newtonsoft.Json** - [JSON - framework для .NET](https://www.newtonsoft.com/json/help/html/Introduction.htm)
+- **Google.Apis.Sheets.v4** - [Библиотека для работы с Sheets v4 Google API](https://developers.google.com/sheets/api/guides/concepts)
+
+Для работы с приложением необходимо заполнить файл настроек **appsettings.json**.
+
+Пример **appsettings.json**
 ```
 {
   "dbconnections": [
@@ -18,7 +19,7 @@
     {
       "db_name": "Имя вашего сервера",
       "connection_string": "Строка подключения к бд",
-      "max_size": Размер вашего диска в гигабайте
+      "max_size": Размер вашего диска в гигабайтах
     },
   ],
   "googleconnection": {
@@ -34,4 +35,5 @@
   }
 }
 ```
-При этом менять ключ и секрет Апи совершенно не обязательно, хотя мы можете создать свой апи по адресу https://developers.google.com/sheets/api/quickstart/dotnet
+
+При этом менять ключ и секрет Апи *совершенно не обязательно*, хотя мы можете создать свой апи на этой [страница](https://developers.google.com/sheets/api/quickstart/dotnet) 
